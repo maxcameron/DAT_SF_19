@@ -1,0 +1,25 @@
+Exercise 1
+
+i. Order_ID (orders can have multiple items), Quantity (of items), item_name, choice_description, item_price. Looks like the customer orders from a chipotle store.
+ii. 1834 (tail chipotle.tv)
+iii. 4623 (wc chipotle.tsv)
+iv. 591 Chicken, 386 Steak
+
+grep "Steak Burrito" chipotle.tsv | cut -f2 | awk '{s+=$1} END {print s}'
+grep "Chicken Burrito" chipotle.tsv | cut -f2 | awk '{s+=$1} END {print s}'
+
+v. Black Beans = 307, Pinto = 108
+
+grep "Chicken Burrito" chipotle.tsv | grep "Black" | cut -f2 | awk '{s+=$1} END {print s}'
+
+Exercise 2
+
+// clone folder to desktop
+
+git clone https://github.com/hallr/DAT_SF_19
+
+find . -name *.*sv
+
+Exercise 3
+
+grep -roi dictionary . | wc -w 
