@@ -8,6 +8,14 @@ Course materials for [General Assembly's Data Science course](https://generalass
 * Justin Breucop
 * Dave Yerrington
 
+#### Office Hours
+
+Who | When
+--- | ---
+Justin | Sundays 3-6pm at GA
+Dave | Fridays 6-8pm at GA
+Rob | Slack and by appointment
+
 #### Slack
 
 Once you've received the invitation to Slack, please log in and **add your picture**!
